@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Information about Auto Video System, a private Windows desktop application for public YouTube metadata research and original-content planning.">
+  <meta name="color-scheme" content="light">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Application Overview | Auto Video System</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">AV</span><span>Auto Video System</span></a>
+      <nav aria-label="Main navigation"><a href="index.html" aria-current="page">Overview</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero">
+      <p class="eyebrow">Application overview / Windows desktop</p>
+      <h1>Research public videos.<br>Plan original content.</h1>
+      <p class="lead">Auto Video System is a personal Windows desktop application developed by an individual developer in Japan. It helps its owner research public YouTube information, organize candidates, and consider the work involved in original video ideas.</p>
+      <div class="notice"><strong>This website is informational.</strong> The desktop application is private and used by its owner. This site provides no public login, hosted application, or desktop download.</div>
+      <div class="actions"><a class="button" href="#features">Explore current features</a><a href="privacy.html">How data is handled <span aria-hidden="true">&rarr;</span></a></div>
+    </section>
+    <section id="features" class="section">
+      <p class="eyebrow">Current features</p><h2>From public information to a personal research workspace</h2>
+      <div class="cards">
+        <article class="card"><span class="step">01 / Discover</span><h3>Search across topics</h3><p>Search public videos manually or start discovery with keywords selected from a local genre catalog. Set a publication period, search order, result limit, and search-request budget.</p></article>
+        <article class="card"><span class="step">02 / Review</span><h3>Keep useful candidates</h3><p>Browse thumbnails, titles, channel names, publication dates, view counts, durations, video IDs, and YouTube links. Keep or discard candidates, filter the list, and compare saved records during research.</p></article>
+        <article class="card"><span class="step">03 / Plan</span><h3>Consider your own production</h3><p>Add review notes and production-format assumptions. Estimate the owner's proposed production costs from manually entered fees, time, and labor rates. These are planning assumptions, not a source video's actual costs or earnings.</p></article>
+      </div>
+    </section>
+    <section class="section split">
+      <div><p class="eyebrow">Independent value</p><h2>A workspace for decisions and original ideas</h2><p>The app adds candidate organization, personal annotations, production-format hypotheses, and the owner's own cost assumptions to a public-metadata research workflow. The owner decides what to investigate and what original content to create.</p><p>References are starting points for research. The app does not download, copy, or republish other people's videos.</p></div>
+      <div class="panel"><h3>Analysis has clear limits</h3><p>Current local tools use explicit word-matching rules and basic thumbnail image measurements to suggest review groups and production hypotheses. Optional description retrieval supports limited text checks.</p><p>These tools do not watch or understand the full video, establish demand, measure click-through rate, prove production suitability, or estimate actual advertising revenue. Human review remains necessary.</p></div>
+    </section>
+    <section class="section prose"><p class="eyebrow">Development status</p><h2>Optional planning and unavailable features</h2><p>An optional, developing OpenAI original-topic planner can send an owner-entered topic and planning instructions to OpenAI using a separate key. It can save structured outline and production-instruction drafts locally. It does not read or send the app's YouTube video records; the owner must also avoid entering copied API data, secrets, or personal information as a topic. See the <a href="privacy.html#openai">OpenAI disclosure</a>.</p><p>The broader analysis and selection workflow is still under development. Independent numerical popularity scores, views-per-day or growth metrics, cross-channel performance scoring, and revenue predictions are not enabled. Automatic video production, media generation, downloading, and uploading are not implemented. No Google or YouTube approval is claimed by this website.</p></section>
+    <section class="section prose"><p class="eyebrow">External services</p><h2>YouTube API Services</h2><p>The desktop app uses YouTube Data API v3 to retrieve public metadata and connects to YouTube image servers for thumbnails. Opening a video link takes the owner to YouTube in their browser. The app currently uses an API key, not YouTube account sign-in or OAuth access to private account data.</p><p>Use is subject to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. Auto Video System is independently developed and is not affiliated with, endorsed by, or operated by YouTube or Google.</p></section>
+    </main>
+  <footer class="site-footer">
+    <div><strong>Auto Video System</strong><p>Personal Windows research and planning tool.</p></div>
+    <div><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a><a href="https://github.com/thiroki0508-cell/auto-video-system-pages/issues">Contact (public GitHub Issues)</a></div>
+    <p class="footer-note">Uses YouTube API Services. Independently developed; not affiliated with, endorsed by, or operated by YouTube or Google.</p>
+    <p class="footer-note">Documentation updated <time datetime="2026-10-14">October 14, 2026</time>.</p>
+  </footer>
+</body>
+</html>

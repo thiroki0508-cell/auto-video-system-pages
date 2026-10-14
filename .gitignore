@@ -1,0 +1,9 @@
+# Only reviewed static documentation files are eligible for publication.
+/*
+!/.gitignore
+!/.nojekyll
+!/README.md
+!/index.html
+!/privacy.html
+!/terms.html
+!/styles.css
