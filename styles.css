@@ -75,3 +75,7 @@ code { background:#edf1f3; padding:.1rem .3rem; border-radius:.2rem; font-size:.
  .cards,.split { display:block; }
  .card,.panel { break-inside:avoid; margin:.5rem 0; }
 }
+
+.api-attribution { padding:1.2rem 0; margin-top:1.8rem; border-top:1px solid var(--line); max-width:820px; }
+.api-attribution img { display:block; width:200px; max-width:100%; height:auto; margin:1rem 0; }
+.api-attribution p:last-child { font-size:.85rem; color:var(--muted); margin-bottom:0; }
