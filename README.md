@@ -21,4 +21,4 @@ Updated October 14, 2026. Publication does not imply Google or YouTube approval 
 
 Policy version: `2026-10-14.2`. Coordinate substantive policy revisions with the desktop app release: update the app bundled policy version and published HTML SHA-256 and require renewed agreement. The desktop app does not poll this website for updates.
 
-The unmodified developed-with-YouTube asset is from the [official branding download](https://developers.google.com/static/youtube/images/developed-with-youtube-sentence-case-light.png). It is used only as service attribution, linked to YouTube and separate from the app name.
+The unmodified developed-with-YouTube asset is from the [official branding download](https://developers.google.com/static/youtube/images/developed-with-youtube-sentence-case-dark.png). It is used only as service attribution, linked to YouTube and separate from the app name.
